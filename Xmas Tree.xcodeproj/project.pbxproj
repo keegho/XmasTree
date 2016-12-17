@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193386861E05F0F90016DE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193386851E05F0F90016DE94 /* AppDelegate.swift */; };
+		193386881E05F0F90016DE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193386871E05F0F90016DE94 /* ViewController.swift */; };
+		1933868B1E05F0F90016DE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193386891E05F0F90016DE94 /* Main.storyboard */; };
+		1933868D1E05F0FA0016DE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933868C1E05F0FA0016DE94 /* Assets.xcassets */; };
+		193386901E05F0FA0016DE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933868E1E05F0FA0016DE94 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		193386821E05F0F90016DE94 /* Xmas Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xmas Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193386851E05F0F90016DE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193386871E05F0F90016DE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1933868A1E05F0F90016DE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1933868C1E05F0FA0016DE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1933868F1E05F0FA0016DE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193386911E05F0FA0016DE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1933867F1E05F0F90016DE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193386791E05F0F90016DE94 = {
+			isa = PBXGroup;
+			children = (
+				193386841E05F0F90016DE94 /* Xmas Tree */,
+				193386831E05F0F90016DE94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193386831E05F0F90016DE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193386821E05F0F90016DE94 /* Xmas Tree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193386841E05F0F90016DE94 /* Xmas Tree */ = {
+			isa = PBXGroup;
+			children = (
+				193386851E05F0F90016DE94 /* AppDelegate.swift */,
+				193386871E05F0F90016DE94 /* ViewController.swift */,
+				193386891E05F0F90016DE94 /* Main.storyboard */,
+				1933868C1E05F0FA0016DE94 /* Assets.xcassets */,
+				1933868E1E05F0FA0016DE94 /* LaunchScreen.storyboard */,
+				193386911E05F0FA0016DE94 /* Info.plist */,
+			);
+			path = "Xmas Tree";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193386811E05F0F90016DE94 /* Xmas Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193386941E05F0FA0016DE94 /* Build configuration list for PBXNativeTarget "Xmas Tree" */;
+			buildPhases = (
+				1933867E1E05F0F90016DE94 /* Sources */,
+				1933867F1E05F0F90016DE94 /* Frameworks */,
+				193386801E05F0F90016DE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xmas Tree";
+			productName = "Xmas Tree";
+			productReference = 193386821E05F0F90016DE94 /* Xmas Tree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1933867A1E05F0F90016DE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = appologi;
+				TargetAttributes = {
+					193386811E05F0F90016DE94 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G5YLS6S3L6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1933867D1E05F0F90016DE94 /* Build configuration list for PBXProject "Xmas Tree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193386791E05F0F90016DE94;
+			productRefGroup = 193386831E05F0F90016DE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193386811E05F0F90016DE94 /* Xmas Tree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193386801E05F0F90016DE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193386901E05F0FA0016DE94 /* LaunchScreen.storyboard in Resources */,
+				1933868D1E05F0FA0016DE94 /* Assets.xcassets in Resources */,
+				1933868B1E05F0F90016DE94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1933867E1E05F0F90016DE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193386881E05F0F90016DE94 /* ViewController.swift in Sources */,
+				193386861E05F0F90016DE94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		193386891E05F0F90016DE94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1933868A1E05F0F90016DE94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1933868E1E05F0FA0016DE94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1933868F1E05F0FA0016DE94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193386921E05F0FA0016DE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193386931E05F0FA0016DE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193386951E05F0FA0016DE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5YLS6S3L6;
+				INFOPLIST_FILE = "Xmas Tree/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appologi.Xmas-Tree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		193386961E05F0FA0016DE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5YLS6S3L6;
+				INFOPLIST_FILE = "Xmas Tree/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appologi.Xmas-Tree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1933867D1E05F0F90016DE94 /* Build configuration list for PBXProject "Xmas Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193386921E05F0FA0016DE94 /* Debug */,
+				193386931E05F0FA0016DE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193386941E05F0FA0016DE94 /* Build configuration list for PBXNativeTarget "Xmas Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193386951E05F0FA0016DE94 /* Debug */,
+				193386961E05F0FA0016DE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1933867A1E05F0F90016DE94 /* Project object */;
+}
