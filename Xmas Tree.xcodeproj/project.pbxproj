@@ -12,6 +12,11 @@
 		1933868B1E05F0F90016DE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193386891E05F0F90016DE94 /* Main.storyboard */; };
 		1933868D1E05F0FA0016DE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933868C1E05F0FA0016DE94 /* Assets.xcassets */; };
 		193386901E05F0FA0016DE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933868E1E05F0FA0016DE94 /* LaunchScreen.storyboard */; };
+		193386981E05F3DD0016DE94 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 193386971E05F3DD0016DE94 /* .gitignore */; };
+		1933869A1E05F45E0016DE94 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 193386991E05F45E0016DE94 /* ApiKeys.plist */; };
+		1933869C1E05F6F60016DE94 /* Click2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1933869B1E05F6F60016DE94 /* Click2.mp3 */; };
+		1933869E1E05F7550016DE94 /* christmasTreeGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1933869D1E05F7550016DE94 /* christmasTreeGIF.gif */; };
+		DEBEF568602602D720AABF6E /* Pods_Xmas_Tree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5783B69CFF098CFB11E6E09B /* Pods_Xmas_Tree.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		1933868C1E05F0FA0016DE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1933868F1E05F0FA0016DE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193386911E05F0FA0016DE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193386971E05F3DD0016DE94 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		193386991E05F45E0016DE94 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		1933869B1E05F6F60016DE94 /* Click2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click2.mp3; sourceTree = "<group>"; };
+		1933869D1E05F7550016DE94 /* christmasTreeGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = christmasTreeGIF.gif; sourceTree = "<group>"; };
+		3D3B147C752677722CD22AC0 /* Pods-Xmas Tree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xmas Tree.release.xcconfig"; path = "Pods/Target Support Files/Pods-Xmas Tree/Pods-Xmas Tree.release.xcconfig"; sourceTree = "<group>"; };
+		5783B69CFF098CFB11E6E09B /* Pods_Xmas_Tree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xmas_Tree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4C5FD7A269D21DB56EDD36 /* Pods-Xmas Tree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xmas Tree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Xmas Tree/Pods-Xmas Tree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBEF568602602D720AABF6E /* Pods_Xmas_Tree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A611CD6EEC5F9B26B4AEE54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4C5FD7A269D21DB56EDD36 /* Pods-Xmas Tree.debug.xcconfig */,
+				3D3B147C752677722CD22AC0 /* Pods-Xmas Tree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		193386791E05F0F90016DE94 = {
 			isa = PBXGroup;
 			children = (
+				193386971E05F3DD0016DE94 /* .gitignore */,
 				193386841E05F0F90016DE94 /* Xmas Tree */,
 				193386831E05F0F90016DE94 /* Products */,
+				0A611CD6EEC5F9B26B4AEE54 /* Pods */,
+				7AE3D61B0A782AAEE28C3F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +85,19 @@
 				1933868C1E05F0FA0016DE94 /* Assets.xcassets */,
 				1933868E1E05F0FA0016DE94 /* LaunchScreen.storyboard */,
 				193386911E05F0FA0016DE94 /* Info.plist */,
+				1933869D1E05F7550016DE94 /* christmasTreeGIF.gif */,
+				1933869B1E05F6F60016DE94 /* Click2.mp3 */,
+				193386991E05F45E0016DE94 /* ApiKeys.plist */,
 			);
 			path = "Xmas Tree";
+			sourceTree = "<group>";
+		};
+		7AE3D61B0A782AAEE28C3F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5783B69CFF098CFB11E6E09B /* Pods_Xmas_Tree.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 193386941E05F0FA0016DE94 /* Build configuration list for PBXNativeTarget "Xmas Tree" */;
 			buildPhases = (
+				3AB294075F7741A2FC926259 /* [CP] Check Pods Manifest.lock */,
 				1933867E1E05F0F90016DE94 /* Sources */,
 				1933867F1E05F0F90016DE94 /* Frameworks */,
 				193386801E05F0F90016DE94 /* Resources */,
+				4981545728D021F6FB0D3BF9 /* [CP] Embed Pods Frameworks */,
+				48B8B3463FF2D69B5CB3D2DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +163,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193386981E05F3DD0016DE94 /* .gitignore in Resources */,
 				193386901E05F0FA0016DE94 /* LaunchScreen.storyboard in Resources */,
+				1933869E1E05F7550016DE94 /* christmasTreeGIF.gif in Resources */,
+				1933869C1E05F6F60016DE94 /* Click2.mp3 in Resources */,
 				1933868D1E05F0FA0016DE94 /* Assets.xcassets in Resources */,
 				1933868B1E05F0F90016DE94 /* Main.storyboard in Resources */,
+				1933869A1E05F45E0016DE94 /* ApiKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AB294075F7741A2FC926259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48B8B3463FF2D69B5CB3D2DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xmas Tree/Pods-Xmas Tree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4981545728D021F6FB0D3BF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xmas Tree/Pods-Xmas Tree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1933867E1E05F0F90016DE94 /* Sources */ = {
@@ -257,6 +348,7 @@
 		};
 		193386951E05F0FA0016DE94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4C5FD7A269D21DB56EDD36 /* Pods-Xmas Tree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5YLS6S3L6;
@@ -271,6 +363,7 @@
 		};
 		193386961E05F0FA0016DE94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B147C752677722CD22AC0 /* Pods-Xmas Tree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5YLS6S3L6;
@@ -302,6 +395,7 @@
 				193386961E05F0FA0016DE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

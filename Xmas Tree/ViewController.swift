@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+import SwiftGifOrigin
+import SystemConfiguration
 
 class ViewController: UIViewController {
 
+    @IBOutlet var treeImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func treeImageViewTapped(_ sender: UITapGestureRecognizer) {
+        print("Tapped")
+    }
 
 }
 
