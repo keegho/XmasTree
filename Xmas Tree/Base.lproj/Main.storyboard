@@ -21,23 +21,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hxT-dh-ILU">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hxT-dh-ILU">
                                 <rect key="frame" x="40" y="100" width="240" height="369"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Lot-Hw-8LB" appends="YES" id="nj2-xs-qvk"/>
                                 </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uc-Ph-fpK">
+                                <rect key="frame" x="132" y="484" width="56" height="56"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="19"/>
+                                <color key="textColor" red="0.00016838245779999999" green="0.87584134619999998" blue="0.26549481110000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="7jA-4V-DcB">
+                                <rect key="frame" x="142" y="266" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="2uc-Ph-fpK" firstAttribute="top" secondItem="hxT-dh-ILU" secondAttribute="bottom" constant="15" id="3Ys-vb-d0r"/>
                             <constraint firstItem="hxT-dh-ILU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="5Fk-w2-HSr"/>
+                            <constraint firstItem="hxT-dh-ILU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="B3C-xM-Tob"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2uc-Ph-fpK" secondAttribute="trailing" constant="116" id="SHg-vr-j83"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hxT-dh-ILU" secondAttribute="trailing" constant="24" id="e1A-Sn-28m"/>
+                            <constraint firstItem="2uc-Ph-fpK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="116" id="o5D-3Q-m91"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2uc-Ph-fpK" secondAttribute="bottom" constant="28" id="uzQ-Ro-Q0x"/>
                             <constraint firstItem="hxT-dh-ILU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="wOn-no-UQw"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hxT-dh-ILU" secondAttribute="bottom" constant="99" id="zzb-pO-cOv"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="7jA-4V-DcB" id="ooK-c5-EFw"/>
+                        <outlet property="indicator" destination="2uc-Ph-fpK" id="wuF-9z-Gc4"/>
                         <outlet property="treeImageView" destination="hxT-dh-ILU" id="jMV-1l-rFN"/>
                     </connections>
                 </viewController>
